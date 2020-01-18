@@ -9,5 +9,6 @@ func main() {
 	//questions.ProductExceptSelf([]int{1, 2, 3, 4})
 	//println(questions.TwoSumLessThanK([]int{100, 200, 360}, 60))
 	//println(questions.LongestCommonPrefix([]string{"", ""}))
-	println(questions.ImprovedBivalued([]int{4,2,2,3,2}))
+	//println(questions.ImprovedBivalued([]int{4,2,2,3,2}))
+	println(questions.LongestWord([]string{"w", "wo", "wor", "worl", "world"}))
 }

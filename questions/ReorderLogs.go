@@ -1,7 +1,7 @@
 package questions
 
 /**
-You have an array of logs.  Each log is a space delimited string of words.
+You have an array of logs.  Each log is a space delimited string of Words.
 
 For each log, the first word in each log is an alphanumeric identifier.  Then, either:
 
