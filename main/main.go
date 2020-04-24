@@ -11,5 +11,8 @@ func main() {
 	//println(questions.LongestCommonPrefix([]string{"", ""}))
 	//println(questions.ImprovedBivalued([]int{4,2,2,3,2}))
 	//println(questions.LongestWord([]string{"w", "wo", "wor", "worl", "world"}))
-	println(questions.ContainsNearbyDuplicate([]int{1, 0, 1, 1}, 1))
+	//println(questions.ContainsNearbyDuplicate([]int{1, 0, 1, 1}, 1))
+
+	s:="ababc"
+	println(questions.RepeatedSubstringPattern(s))
 }
