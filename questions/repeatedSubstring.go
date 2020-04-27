@@ -27,7 +27,7 @@ if S is composed of k substrings s, then S1 = S + S should contain 2k substrings
 
 since k >= 2,
 2k - 2 >= k
-which means that S1[1:-1] should still contain S
+which means that S1[1:-1] should still contain
 */
 func RepeatedSubstringPattern(s string) bool {
 	patternToCheck := (s + s)[1 : (len(s)*2)-1]

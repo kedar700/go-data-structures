@@ -23,7 +23,7 @@ type MaxStack struct {
 }
 
 /** initialize your data structure here. */
-func Constructor() MaxStack {
+func EConstructor() MaxStack {
 	return MaxStack{}
 }
 
