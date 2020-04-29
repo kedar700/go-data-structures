@@ -1,6 +1,6 @@
 package main
 
-import "data-structures/questions"
+import "data-structures/HashSet"
 
 func main() {
 
@@ -12,7 +12,9 @@ func main() {
 	//println(questions.ImprovedBivalued([]int{4,2,2,3,2}))
 	//println(questions.LongestWord([]string{"w", "wo", "wor", "worl", "world"}))
 	//println(questions.ContainsNearbyDuplicate([]int{1, 0, 1, 1}, 1))
-
-	s:="ababc"
-	println(questions.RepeatedSubstringPattern(s))
+	//println(questions.RepeatedSubstringPattern(s))
+	set := HashSet.ItemSet{}
+	set.Add(1)
+	//set.Add(2)
+	println(set.Items())
 }
