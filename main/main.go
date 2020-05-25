@@ -1,6 +1,6 @@
 package main
 
-import "data-structures/HashSet"
+import "data-structures/questions"
 
 func main() {
 
@@ -13,8 +13,15 @@ func main() {
 	//println(questions.LongestWord([]string{"w", "wo", "wor", "worl", "world"}))
 	//println(questions.ContainsNearbyDuplicate([]int{1, 0, 1, 1}, 1))
 	//println(questions.RepeatedSubstringPattern(s))
-	set := HashSet.ItemSet{}
-	set.Add(1)
+	//set := HashSet.ItemSet{}
 	//set.Add(2)
-	println(set.Items())
+	//println(set.Items())
+	//var arr [5]int // array
+	//var arr[]int //slice
+	//arr:= []int{1,3,3}
+	//arr = append(arr,34,55,11,6)
+	//arr = append(arr[:2],arr[2+1:]...)// This will remove the element from the 2 index. In a slice the last element is not included
+	//ar:= arr[1:4]
+	//println(arr,ar)
+	println(questions.CheckValidString("(*)"))
 }
